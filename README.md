@@ -1,2 +1,1 @@
-# bio-site
-my cool ass other website
+csoll gabor
