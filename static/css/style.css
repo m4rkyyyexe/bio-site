@@ -1,0 +1,107 @@
+:root {
+    --bg: #000;
+    --text: #fff;
+    --font: 'Handlee', 'Source Code Pro', monospace;
+    --font2: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: var(--font);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    margin-bottom: 17px;
+    position: relative;
+    z-index: 1;
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/static/imgs/sparkle.gif') repeat;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+a {
+    color: var(--text);
+    font-family: var(--font);
+    text-decoration: none;
+    font-size: 20px;
+    margin-inline: 5px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    transition: .5s;
+    z-index: 1;
+}
+
+a:hover {
+    color:yellow
+}
+
+img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    background: var(--bg);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text);
+    font-size: 30px;
+    z-index: 1000;
+    user-select: none;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.overlay.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.overlay p {
+    text-align: center;
+    font-size: 17px;
+    font-family: var(--font2);
+    font-weight: 100;
+    transition: 0.5s;
+}
+
+.overlay p:hover {
+    letter-spacing: 3px;
+}
