@@ -1,8 +1,10 @@
+@import('https://fonts.googleapis.com/icon?family=Fira+Mono');
+
 :root {
     --bg: #000;
     --text: #fff;
-    --font: 'Handlee', 'Source Code Pro', monospace;
-    --font2: 'Source Code Pro', monospace;
+    --font: 'Fira Mono';
+    --font2: 'Source Code Pro';
 }
 
 body {
@@ -96,12 +98,11 @@ img {
 
 .overlay p {
     text-align: center;
-    font-size: 17px;
-    font-family: var(--font2);
-    font-weight: 100;
-    transition: 0.5s;
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 200;
 }
 
-.overlay p:hover {
-    letter-spacing: 3px;
+.overlay:hover {
+    letter-spacing: 4px;
 }
