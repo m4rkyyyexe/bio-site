@@ -46,7 +46,7 @@ a {
     color: var(--text);
     font-family: 'Fira Mono', serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     margin-inline: 5px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
     margin-top: 0;
