@@ -6,9 +6,9 @@ var typed;
 function startTyped() {
     typed = new Typed("#typed", {
         strings: ["bunnyhop enjoyer", "married to yxakee", "retired l4d2 player", "average tf2 cheater"],
-        typeSpeed: 30,
-        backSpeed: 5,
-        backDelay: 1500,
+        typeSpeed: 25,
+        backSpeed: 2,
+        backDelay: 2000,
         startDelay: 600,
     });
 }
