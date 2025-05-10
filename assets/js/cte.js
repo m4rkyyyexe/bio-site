@@ -5,10 +5,10 @@ audio.loop = true;
 var typed;
 function startTyped() {
     typed = new Typed("#typed", {
-        strings: ["bunnyhop enjoyer", "aka. 6thnight", "married to yxakee", "average tf2 & l4d2 cheater"],
-        typeSpeed: 25,
+        strings: ["bunnyhop enjoyer", "aka. 6thnight", "married to yxakee", "average tf2 and l4d2 cheater"],
+        typeSpeed: 20,
         backSpeed: 2,
-        backDelay: 2000,
+        backDelay: 2500,
         startDelay: 600,
     });
 }
