@@ -5,7 +5,7 @@ audio.loop = true;
 var typed;
 function startTyped() {
     typed = new Typed("#typed", {
-        strings: ["bunnyhop enjoyer", "aka. 6thnight", "married to yxakee", "average tf2 and l4d2 cheater"],
+        strings: ["bunnyhop enjoyer", "aka. darkknight", "married to yxakee", "average tf2 and l4d2 cheater"],
         typeSpeed: 20,
         backSpeed: 2,
         backDelay: 2500,
