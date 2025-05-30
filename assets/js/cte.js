@@ -5,7 +5,7 @@ audio.loop = true;
 var typed;
 function startTyped() {
     typed = new Typed("#typed", {
-        strings: ["bunnyhop enjoyer", "aka. darkknight", "married to yxakee", "average tf2 and l4d2 cheater"],
+        strings: ["ℛage", "aka. darkknight", "christ is lord", "average tf2 and l4d2 cheater"],
         typeSpeed: 20,
         backSpeed: 2,
         backDelay: 2500,
@@ -60,4 +60,4 @@ function animateTitle(title) {
     setInterval(updateTitle, 200);
 }
 
-animateTitle("@bunnyhopenjoyer");
+animateTitle("@darkknightl4d2");
