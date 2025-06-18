@@ -5,7 +5,7 @@ audio.loop = true;
 var typed;
 function startTyped() {
     typed = new Typed("#typed", {
-        strings: ["ℛage", "aka. darkknight", "christ is lord", "average tf2 and l4d2 cheater"],
+        strings: ["m4rkyyy", "aka. ℛage, darkknight", "christ is lord", "average tf2 and l4d2 cheater"],
         typeSpeed: 20,
         backSpeed: 2,
         backDelay: 2500,
