@@ -13,6 +13,10 @@ function startTyped() {
     });
 }
 
+window.addEventListener("load", (event) => {
+    new cursoreffects.ghostCursor();
+});
+
 function removeoverlay() {
     var overlay = document.getElementById('overlay');
     overlay.classList.add('fade-out');
@@ -61,3 +65,4 @@ function animateTitle(title) {
 }
 
 animateTitle("@m4rkyyyexe");
+
