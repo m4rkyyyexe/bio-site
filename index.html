@@ -1,13 +1,47 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-    <style>
-        body {
-            background-color: black;
-            color:white
-        }
-    </style>
-    <body>
-        <p>bocsi</p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    body {
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #aaaa;
+        font-family: tahoma;
+        text-align: center;
+    }
+
+    #quote {
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    #quote:hover {
+        color: #ffffff;
+    }
+</style>
+
+<body>
+    <div id="quote">thank you</div>
+
+    <audio id="sound" src="miracle.wav"></audio>
+
+    <script>
+        const quote = document.getElementById('quote');
+        const sound = document.getElementById('sound');
+
+        quote.addEventListener('click', () => {
+            sound.play();
+            alert('SC, BNJ, LX, TRDK, SNK, ZPLX, RVY');
+        });
+    </script>
+</body>
+
 </html>
